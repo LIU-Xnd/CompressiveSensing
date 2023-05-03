@@ -1,8 +1,8 @@
 <!--
  * @Author: LIU-Xnd
  * @Date: 2023-04-28 11:26:41
- * @LastEditors: LIU-Xnd
- * @LastEditTime: 2023-04-28 11:44:07
+ * @LastEditors: LIU-Xnd lqxnds@foxmail.com
+ * @LastEditTime: 2023-05-03 14:57:55
  * @FilePath: \CompressiveSensing\readme.md
 -->
 **This is a project only used for private thesis 2023.**
@@ -68,3 +68,5 @@ Var001 = pickle.load('Var001.pickle')
 ```
 
 Make sure all necessarily depended packages/libraries are imported before loading a specific `pickle` data.
+
+Note: Some `.pickle` data are too large (>100MB) that they cannot be uploaded on Github, so some of these files might be missing or in old-version. But how all the `.pickle` files are produced is available in source code files such as `Algorithms.ipynb`, etc.
